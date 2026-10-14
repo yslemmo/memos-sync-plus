@@ -1,0 +1,20 @@
+.memos-sync-settings h3 {
+  margin-top: 2em;
+  padding-bottom: .6em;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+.memos-sync-settings input[type="text"],
+.memos-sync-settings input[type="password"] { width: 260px; max-width: 100%; }
+.memos-sync-status { cursor: pointer; }
+.memos-sync-footnote { color: var(--text-muted); margin-top: 2em; }
+.memos-sync-settings textarea {
+  width: 100%;
+  max-width: 600px;
+  min-height: 190px;
+  font-family: var(--font-monospace);
+  line-height: 1.5;
+}
+@media (max-width: 600px) {
+  .memos-sync-settings input[type="text"],
+  .memos-sync-settings input[type="password"] { width: 180px; }
+}

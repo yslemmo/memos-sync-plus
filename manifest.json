@@ -1,0 +1,9 @@
+{
+  "id": "memos-sync-plus",
+  "name": "Memos Sync Plus",
+  "version": "1.2.1",
+  "minAppVersion": "1.5.0",
+  "description": "将 Memos 单向同步到日记或独立笔记，支持附件下载和定时同步。",
+  "author": "lemmo",
+  "isDesktopOnly": false
+}
